@@ -1,12 +1,10 @@
-/* section-one */
-
-.iphone17-pro {
-  background-image: url("images/section-1/10002.jpg");
+.iphone-Air {
+  background-image: url("./images-2/10003.jpg");
   background-size: cover; /* make the image cover the whole area */
   background-position: center; /* center the image */
   background-repeat: no-repeat; /* prevent repeating */
   height: 100vh; /* full viewport height */
-  color: white; /* make text visible over dark image */
+  color: black; /* make text visible over dark image */
   text-align: center; /* center text horizontally */
   display: flex; /* center text vertically */
   flex-direction: column;
@@ -14,35 +12,31 @@
   font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text",
     "SF Pro Display", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.iphone17-pro h1 {
+.iphone-Air h3 {
   font-size: 60px;
   margin-top: 30px;
 }
-.iphone17-pro h7 {
+.iphone-Air p {
   font-size: 30px;
-  margin: 0.5rem 0 2rem;
 }
-.iphone17-pro .button button {
+.iphone-Air .button2 button {
   padding: 10px 20px;
   margin: 0 10px;
   border-radius: 20px;
-  border-width: 1px;
   font-size: 20px;
   cursor: pointer;
   transition: background 0.3s;
 }
-.iphone17-pro .button button:hover {
+.iphone-Air .button2 button:hover {
   background-color: #0d79e6;
   color: #fff;
 }
-.but1 {
+.but3 {
   border: none;
   background-color: #0071e3;
   color: #fff;
 }
-.but2 {
-  background-color: #000;
+.but4 {
   color: #0071e3;
   border-color: #0071e3;
 }
-/* section-one */

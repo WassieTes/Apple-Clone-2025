@@ -8,8 +8,8 @@ import cart from "./images/cart.svg"
 export default function Header() {
   return (
     <>
-      <div class="wrapper">
-        <ul class="list-wrapper">
+      <div className="wrapper">
+        <ul className="list-wrapper">
           <li>
             <a href="/">
               <img src={apple} />
@@ -17,7 +17,7 @@ export default function Header() {
           </li>
           <li>
             <a href="#">Store</a>
-            <ul class="dropdown">
+            <ul className="dropdown">
               <li>
                 <a href="#">Shop the Latest</a>
               </li>
