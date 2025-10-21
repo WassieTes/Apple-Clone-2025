@@ -5,6 +5,7 @@ import Section1 from "./Components/Section-1/section1.js"
 import Section2 from "./Components/Section-2/section2.js"
 import Section3 from "./Components/Section-3/section3.js"
 import Section4 from "./Components/Section-4/section4.js"
+import Section5 from "./Components/Section-5/section5.js"
 function App() {
   return (
     <>
@@ -13,6 +14,7 @@ function App() {
       <Section2 />
       <Section3 />
       <Section4 />
+      <Section5 />
       <Footer />
     </>
   );
