@@ -1,0 +1,92 @@
+.sec4-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  height: 100vh;
+}
+.icloud {
+  background-image: url("./images-4/1005.jpeg");
+  background-position: center; /* center the image */
+  background-position: center; /* center the image */
+  background-repeat: no-repeat; /* prevent repeating */
+  text-align: center; /* center text horizontally */
+  align-items: center; /* center the image */
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text",
+    "SF Pro Display", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  justify-content: center;
+  background-size: cover;
+  width: 660px;
+  height: 100%;
+  margin-top: 0px;
+  margin-left: 0px;
+  max-width: 100%;
+}
+.icloud h3 {
+  font-size: 40px;
+  margin-top: 30px;
+}
+.icloud p {
+  font-size: 20px;
+}
+.sec4-wrapper .button4 button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 20px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.sec4-wrapper .button4 button:hover {
+  background-color: #0d79e6;
+  color: #fff;
+}
+.but7 {
+  border: none;
+  background-color: #0071e3;
+  color: #fff;
+}
+.but8 {
+  color: #0071e3;
+  border-color: #0071e3;
+}
+
+.games {
+  background-image: url("./images-4/1006.jpeg");
+  background-position: center; /* center the image */
+  background-position: center; /* center the image */
+  background-repeat: no-repeat; /* prevent repeating */
+  text-align: center; /* center text horizontally */
+  align-items: center; /* center the image */
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text",
+    "SF Pro Display", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  justify-content: center;
+  background-size: cover;
+  width: 700px;
+  height: 100%;
+  margin-top: 0px;
+  margin-left: 0px;
+  max-width: 100%;
+  color: #fff;
+}
+.game-img {
+  width: 125px;
+  margin-top: 60px;
+}
+.games {
+  font-size: 20px;
+}
+.but9 {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 20px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.3s;
+  border: none;
+  background-color: #0071e3;
+  color: #fff;
+}
+.but9 button:hover {
+  background-color: #0d79e6;
+  color: #fff;
+}
