@@ -236,7 +236,70 @@ export default function Header() {
 
           <li>
             <a href="#">Watch</a>
+            <div class="Watch_dropdown">
+              <div class="Watch_one">
+                <p>Explore Watch</p>
+                <a href="https://www.apple.com/watch/">
+                  Explore All Apple Watch
+                </a>
+                <a href="https://www.apple.com/apple-watch-series-11/">
+                  Apple Watch Series 11
+                </a>
+                <a href="https://www.apple.com/apple-watch-se-3/">
+                  Apple Watch SE3
+                </a>
+                <a href="https://www.apple.com/apple-watch-ultra-3/">
+                  Apple Watch Ultra 3
+                </a>
+                <a href="https://www.apple.com/apple-watch-nike/">
+                  Applw Watch Nike
+                </a>
+                <a href="https://www.apple.com/apple-watch-hermes/">
+                  Apple Watch Hermes
+                </a>
+                <p>Compare Watch</p>
+                <p>Why AppleWatch</p>
+              </div>
+
+              <div class="Watch_two">
+                <p>Shop Watch</p>
+                <a href="https://www.apple.com/us-edu/shop/buy-watch">
+                  Shop Apple Watch
+                </a>
+                <a href="https://www.apple.com/us-edu/shop/watch/bands">
+                  Apple Watch Bands
+                </a>
+                <a href="https://www.apple.com/us-edu/shop/watch/accessories">
+                  Apple Watch Accessories
+                </a>
+                <a href="https://www.apple.com/us-edu/shop/trade-in#watch">
+                  Apple Trade In
+                </a>
+                <a href="https://www.apple.com/us-edu/shop/browse/education_payment_plan">
+                  Financing
+                </a>
+              </div>
+
+              <div class="Watch_three">
+                <p>More from Watch</p>
+                <a href="https://support.apple.com/watch?cid=gn-ols-watch-psp-prodfly">
+                  Apple Watch Support
+                </a>
+                <a href="https://www.apple.com/applecare/?filter=watch">
+                  AppleCare
+                </a>
+                <a href="https://www.apple.com/os/watchos/">WatchOS 26</a>
+                <a href="https://www.apple.com/apple-watch-for-your-kids/">
+                  Apple Watch For Your Kids
+                </a>
+                <a href="https://www.apple.com/apps/">Apps by Apple</a>
+                <a href="https://www.apple.com/apple-fitness-plus/">
+                  Apple Fitness+
+                </a>
+              </div>
+            </div>
           </li>
+
           <li>
             <a href="#">Vision</a>
           </li>
