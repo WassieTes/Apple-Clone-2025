@@ -68,7 +68,61 @@ export default function Header() {
 
           <li>
             <a href="#">Mac</a>
+            <div class="mac_dropdown">
+              <div class="mac_one">
+                <p>Explore Mac</p>
+                <a href="https://www.apple.com/mac/">Explore All Mac</a>
+                <a href="https://www.apple.com/macbook-air/">MacBook Air</a>
+                <a href="https://www.apple.com/macbook-pro/">MacBook Pro</a>
+                <a href="https://www.apple.com/imac/">iMac</a>
+                <a href="https://www.apple.com/mac-mini/">Mac mini</a>
+                <a href="https://www.apple.com/mac-studio/">Mac Studio</a>
+                <a href="https://www.apple.com/mac-pro/">Mac Pro</a>
+                <a href="https://www.apple.com/displays/">Displays</a>
+                <p>Compare Mac</p>
+                <p>Switch from pc to Mac</p>
+              </div>
+
+              <div class="mac_two">
+                <p>Shop Mac</p>
+                <a href="https://www.apple.com/us-edu/shop/buy-mac">Shop Mac</a>
+                <a href="https://www.apple.com/mac/best-mac/">Help Me Choose</a>
+                <a href="https://www.apple.com/us-edu/shop/mac/accessories">
+                  Mac Accessories
+                </a>
+                <a href="https://www.apple.com/us-edu/shop/trade-in#mac">
+                  Apple Trade in
+                </a>
+                <a href="https://www.apple.com/us-edu/shop/browse/education_payment_plan">
+                  Financing
+                </a>
+              </div>
+
+              <div class="mac_three">
+                <p>More from Mac</p>
+                <a href="https://support.apple.com/mac?cid=gn-ols-mac-psp-prodfly">
+                  Mac Support
+                </a>
+                <a href="https://www.apple.com/applecare/?filter=mac">
+                  AppleCare
+                </a>
+                <a href="https://www.apple.com/os/macos/">macOS Tahoe</a>
+                <a href="https://www.apple.com/apple-intelligence/">
+                  Apple Intelligence
+                </a>
+                <a href="https://www.apple.com/apps/">Apps by Apple</a>
+                <a href="https://www.apple.com/macos/continuity/">
+                  Better with iPhone
+                </a>
+                <a href="https://www.apple.com/icloud/">iCloud+</a>
+                <a href="https://www.apple.com/business/mac-does-that/">
+                  Mac for Business
+                </a>
+                <a href="https://www.apple.com/education/">Education</a>
+              </div>
+            </div>
           </li>
+
           <li>
             <a href="#">ipad</a>
           </li>
