@@ -302,7 +302,45 @@ export default function Header() {
 
           <li>
             <a href="#">Vision</a>
+
+            <div class="Vision_dropdown">
+              <div class="Vision_one">
+                <p>Explore Vision</p>
+                <a href="https://www.apple.com/apple-vision-pro/">
+                  Explore Apple Vision
+                </a>
+                <p>Tech Specs</p>
+              </div>
+
+              <div class="Vision_two">
+                <p>Shop Vision</p>
+                <a href="https://www.apple.com/us-edu/store">
+                  Shop Apple Vision Pro{" "}
+                </a>
+                <a href="https://www.apple.com/us-edu/store">
+                  Apple Vision Pro Accessories
+                </a>
+                <a href="https://www.apple.com/retail/instore-shopping-session/session-selection/?topic=visionpro">
+                  Book a Demo
+                </a>
+                <a href="https://www.apple.com/us-edu/shop/browse/education_payment_plan">
+                  Financing
+                </a>
+              </div>
+
+              <div class="Vision_three">
+                <p>More from Watch</p>
+                <a href="https://support.apple.com/apple-vision-pro?cid=gn-nav-vision-psp-prodfly">
+                  Apple Vision pro Support
+                </a>
+                <a href="https://www.apple.com/applecare/?filter=apple-vision-pro">
+                  AppleCare
+                </a>
+                <a href="https://www.apple.com/os/visionos/">VisionOS 26</a>
+              </div>
+            </div>
           </li>
+
           <li>
             <a href="#">Airpods</a>
           </li>
