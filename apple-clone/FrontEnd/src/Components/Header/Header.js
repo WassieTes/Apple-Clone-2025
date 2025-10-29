@@ -382,10 +382,60 @@ export default function Header() {
             </div>
           </li>
 
-
           <li>
             <a href="#">Tv&Home</a>
+            <div class="TvHome_dropdown">
+              <div class="TvHome_one">
+                <p>Explore TV & Home</p>
+                <a href="https://www.apple.com/tv-home/">Explore TV & Home</a>
+                <a href="https://www.apple.com/apple-tv-4k/">Apple TV 4K</a>
+                <a href="https://www.apple.com/homepod-2nd-generation/">
+                  HomePod
+                </a>
+                <a href="https://www.apple.com/homepod-mini/">HomePod mini</a>
+              </div>
+
+              <div class="TvHome_two">
+                <p>Shop TV & Home</p>
+                <a href="https://www.apple.com/shop/buy-tv/apple-tv-4k">
+                  Shop Apple TV 4K
+                </a>
+                <a href="https://www.apple.com/shop/buy-homepod/homepod">
+                  Shop HomePod
+                </a>
+                <a href="https://www.apple.com/shop/buy-homepod/homepod-mini">
+                  Shop HomePod mini
+                </a>
+                <a href="https://www.apple.com/shop/product/mw5g3am/a/siri-remote">
+                  Shop Siri Remote
+                </a>
+                <a href="https://www.apple.com/shop/smart-home/accessories">
+                  TV & Home Accessories
+                </a>
+              </div>
+
+              <div class="TvHome_three">
+                <p>More from TV & Home</p>
+                <a href="https://support.apple.com/tv">Apple TV Support</a>
+                <a href="https://support.apple.com/homepod?cid=gn-ols-homepod-psp-prodfly">
+                  HomePod Support
+                </a>
+                <a href="https://www.apple.com/applecare/?filter=tv">
+                  AppleCare fro Apple TV
+                </a>
+                <a href="https://www.apple.com/applecare/?filter=homepod">
+                  AppleCare for HomePod
+                </a>
+                <a href="https://www.apple.com/apple-tv-app/">Apple TV app</a>
+                <a href="https://www.apple.com/apple-tv-plus/">Apple TV+</a>
+                <a href="https://www.apple.com/home-app/">Home app</a>
+                <a href="https://www.apple.com/apple-music/">Apple Music</a>
+                <a href="https://www.apple.com/siri/">Siri</a>
+                <a href="https://www.apple.com/airplay/">AirPlay</a>
+              </div>
+            </div>
           </li>
+
           <li>
             <a href="#">Entertainment</a>
           </li>
