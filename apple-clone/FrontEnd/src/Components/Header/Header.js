@@ -514,7 +514,6 @@ export default function Header() {
             </div>
           </li>
 
-
           <li>
             <a href="#">Support</a>
             <div class="Support_dropdown">
@@ -581,7 +580,27 @@ export default function Header() {
             <a href="#">
               <img src={search} />
             </a>
+            <div class="Search_dropdown">
+              <div class="sear_butt">
+                <input type="text" placeholder="Search Apple.com " />
+              </div>
+              <br />
+              <div class="Search_one">
+                <p>Quick Links</p>
+                <a href="https://www.apple.com/retail/">Find a Store</a>
+                <a href="https://www.apple.com/apple-vision-pro/">
+                  Apple Vision Pro
+                </a>
+                <a href="https://www.apple.com/airpods/">AirPods</a>
+                <a href="https://www.apple.com/apple-intelligence/">
+                  Apple Intelligence
+                </a>
+                <a href="https://www.apple.com/shop/trade-in">Apple Trade In</a>
+              </div>
+            </div>
           </li>
+
+
           <li>
             <a href="#">
               <img src={cart} />

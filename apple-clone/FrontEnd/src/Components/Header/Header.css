@@ -746,6 +746,82 @@ li:hover > .Support_dropdown {
 
 
 
+/* search */
+  .Search_dropdown {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%) translateY(-20px);
+  width: 100vw; /* Full width */
+  background-color: #000;
+  border-top: 1px solid #333;
+  padding-top: 20px;
+  padding-left: 300px;
+  gap: 40px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  color: white;
+}
+
+/* 🔹 Show dropdown on hover */
+li:hover > .Search_dropdown {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(0);
+}
+.sear_butt {
+   height: 40px;
+   width: 500px;
+   cursor: pointer;
+   background: black;
+   border-radius: 30px;
+}
+.sear_butt input {
+  border: none;
+  font-size: 20px;
+  padding-top: 12px;
+  padding-left: 20px;
+  height: 27px;
+  margin-left: 20px;
+  background-color: #222;      /* dark background */
+  color: white; 
+  width: 500px;
+  border-radius: 30px;
+  border-color: #000;
+
+}
+/* 🔹 Dropdown links */
+.Search_dropdown a {
+  display: block;
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  margin-bottom: 8px;
+  transition: color 0.2s ease;
+}
+
+/* 🔹 Optional subtle divider for columns */
+.Search_dropdown li {
+  list-style: none;
+}
+
+/* 🔹 Columns inside dropdown */
+.Search_dropdown .mac {
+  display: flex;
+  flex-direction: column;
+  min-width: 100px;
+}
+
+/* 🔹 Section titles */
+.Search_dropdown p {
+  color: #888;
+  font-size: 14px;
+  margin-bottom: 14px;
+  font-weight: 500;
+}
+/* search */
+
+
 .list-wrapper {
   display: flex;
   justify-content: center;
