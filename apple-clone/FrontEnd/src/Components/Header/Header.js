@@ -15,20 +15,57 @@ export default function Header() {
               <img src={apple} />
             </a>
           </li>
+
           <li>
             <a href="#">Store</a>
-            <ul className="dropdown">
-              <li>
-                <a href="#">Shop the Latest</a>
-              </li>
-              <li>
-                <a href="#">Mac</a>
-              </li>
-              <li>
-                <a href="#">iPhone</a>
-              </li>
-            </ul>
+
+            <div class="store_dropdown">
+              <div class="column_one">
+                <p>Shop</p>
+                <a href="https://www.apple.com/store">Shop the Latest</a>
+                <a href="https://www.apple.com/shop/buy-mac">Mac</a>
+                <a href="https://www.apple.com/shop/buy-ipad">iPad</a>
+                <a href="https://www.apple.com/shop/buy-iphone">iPhone</a>
+                <a href="https://www.apple.com/shop/buy-watch">Apple Watch</a>
+                <a href="https://www.apple.com/shop/buy-vision">
+                  Apple Vision Pro
+                </a>
+                <a href="https://www.apple.com/shop/airpods/accessories">
+                  AirPods
+                </a>
+                <a href="https://www.apple.com/shop/accessories/all">
+                  Accessories
+                </a>
+              </div>
+
+              <div class="column_two">
+                <p>Quick Links</p>
+                <a href="https://www.apple.com/retail/">Find a Store</a>
+                <a href="#">Order Status</a>
+                <a href="https://www.apple.com/shop/trade-in">Apple Trade In</a>
+                <a href="https://www.apple.com/shop/browse/financing">
+                  Financing
+                </a>
+                <a href="https://www.apple.com/shop/personal-setup">
+                  Personal Setup
+                </a>
+              </div>
+
+              <div class="column_three">
+                <p>Shop Special Stores</p>
+                <a href="https://www.apple.com/shop/refurbished">
+                  Certified Refurbished
+                </a>
+                <a href="https://www.apple.com/us-edu/store">Education</a>
+                <a href="https://www.apple.com/retail/business/">Business</a>
+                <a href="https://www.apple.com/us-edu/shop/browse/home/veterans_military">
+                  Veterans and Military
+                </a>
+                <a href="https://www.apple.com/government/">Government</a>
+              </div>
+            </div>
           </li>
+
           <li>
             <a href="#">Mac</a>
           </li>

@@ -36,6 +36,68 @@ img {
   color: inherit;
 }
 
+/* store */
+
+/* 🔹 Dropdown container */
+.store_dropdown {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%) translateY(-20px);
+  width: 100vw; /* Full width */
+  background-color: #000;
+  border-top: 1px solid #333;
+  padding-top: 60px;
+  display: flex;
+  gap: 40px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  color: white;
+}
+/* 🔹 Show dropdown on hover */
+li:hover > .store_dropdown {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(0);
+}
+/* 🔹 Dropdown links */
+.store_dropdown a {
+  display: block;
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  margin-bottom: 8px;
+  transition: color 0.2s ease;
+}
+
+/* 🔹 Optional subtle divider for columns */
+.store_dropdown li {
+  list-style: none;
+}
+
+/* 🔹 Columns inside dropdown */
+.store_dropdown .column {
+  display: flex;
+  flex-direction: column;
+  min-width: 100px;
+}
+
+/* 🔹 Section titles */
+.store_dropdown p {
+  color: #888;
+  font-size: 14px;
+  margin-bottom: 14px;
+  font-weight: 500;
+}
+
+.column_one {
+  padding-left: 100px;
+}
+.column_one a {
+  font-size: 24px;
+}
+/* store */
+
 
 .list-wrapper {
   display: flex;
@@ -79,3 +141,4 @@ img {
   transform: translateY(0);
   pointer-events: auto;
 }
+
