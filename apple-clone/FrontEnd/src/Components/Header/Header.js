@@ -125,7 +125,54 @@ export default function Header() {
 
           <li>
             <a href="#">ipad</a>
+            <div class="ipad_dropdown">
+              <div class="ipad_one">
+                <p>Explore iPad</p>
+                <a href="https://www.apple.com/ipad/">Explore All iPad</a>
+                <a href="https://www.apple.com/ipad-pro/">iPad Pro</a>
+                <a href="https://www.apple.com/ipad-air/">iPad Air</a>
+                <a href="https://www.apple.com/ipad-11/">iPad</a>
+                <a href="https://www.apple.com/ipad-mini/">iPad mini</a>
+                <a href="https://www.apple.com/apple-pencil/">Apple Pencil</a>
+                <a href="https://www.apple.com/ipad-keyboards/">Keyboards</a>
+                <p>Compare iPaad</p>
+              </div>
+
+              <div class="ipad_two">
+                <p>Shop iPad</p>
+                <a href="https://www.apple.com/us-edu/shop/buy-mac">
+                  Shop iPad
+                </a>
+                <a href="https://www.apple.com/us-edu/shop/ipad/accessories">
+                  iPad Accessories
+                </a>
+                <a href="https://www.apple.com/us-edu/shop/trade-in#ipad">
+                  Apple Trade In
+                </a>
+                <a href="https://www.apple.com/us-edu/shop/browse/education_payment_plan">
+                  Financing
+                </a>
+              </div>
+
+              <div class="ipad_three">
+                <p>More from iPad</p>
+                <a href="https://support.apple.com/ipad?cid=gn-ols-ipad-psp-prodfly">
+                  iPad Support
+                </a>
+                <a href="https://www.apple.com/applecare/?filter=ipad">
+                  AppleCare
+                </a>
+                <a href="https://www.apple.com/os/ipados/">iPadOS 26</a>
+                <a href="https://www.apple.com/apple-intelligence/">
+                  Apple Intelligence
+                </a>
+                <a href="https://www.apple.com/apps/">Apps by Apple</a>
+                <a href="https://www.apple.com/icloud/">iCloud+</a>
+                <a href="https://www.apple.com/education/">Education</a>
+              </div>
+            </div>
           </li>
+
           <li>
             <a href="#">iphone</a>
           </li>
