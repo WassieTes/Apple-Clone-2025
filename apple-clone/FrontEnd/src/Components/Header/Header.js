@@ -605,7 +605,22 @@ export default function Header() {
             <a href="#">
               <img src={cart} />
             </a>
+            <div class="cart_dropdown">
+          <div class="cart_one">    
+              <h1>Your Bag is empty</h1><br/>
+              <p><a href = "#">sign in</a> to see if you have any saved items</p>
+          </div><br/>
+       <div class="cart_two">
+          <p>My Profile</p>
+          <a href="#">Orders</a>
+          <a href="#">Your Saves</a>
+          <a href="#">Account</a>
+          <a href="#">Sign in</a>
+        </div>
+        </div>
           </li>
+
+
         </ul>
       </div>
     </>
