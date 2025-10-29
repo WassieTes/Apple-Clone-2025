@@ -19,8 +19,8 @@ export default function Header() {
           <li>
             <a href="#">Store</a>
 
-            <div class="store_dropdown">
-              <div class="column_one">
+            <div className="store_dropdown">
+              <div className="column_one">
                 <p>Shop</p>
                 <a href="https://www.apple.com/store">Shop the Latest</a>
                 <a href="https://www.apple.com/shop/buy-mac">Mac</a>
@@ -38,7 +38,7 @@ export default function Header() {
                 </a>
               </div>
 
-              <div class="column_two">
+              <div className="column_two">
                 <p>Quick Links</p>
                 <a href="https://www.apple.com/retail/">Find a Store</a>
                 <a href="#">Order Status</a>
@@ -51,7 +51,7 @@ export default function Header() {
                 </a>
               </div>
 
-              <div class="column_three">
+              <div className="column_three">
                 <p>Shop Special Stores</p>
                 <a href="https://www.apple.com/shop/refurbished">
                   Certified Refurbished
@@ -68,8 +68,8 @@ export default function Header() {
 
           <li>
             <a href="#">Mac</a>
-            <div class="mac_dropdown">
-              <div class="mac_one">
+            <div className="mac_dropdown">
+              <div className="mac_one">
                 <p>Explore Mac</p>
                 <a href="https://www.apple.com/mac/">Explore All Mac</a>
                 <a href="https://www.apple.com/macbook-air/">MacBook Air</a>
@@ -83,7 +83,7 @@ export default function Header() {
                 <p>Switch from pc to Mac</p>
               </div>
 
-              <div class="mac_two">
+              <div className="mac_two">
                 <p>Shop Mac</p>
                 <a href="https://www.apple.com/us-edu/shop/buy-mac">Shop Mac</a>
                 <a href="https://www.apple.com/mac/best-mac/">Help Me Choose</a>
@@ -98,7 +98,7 @@ export default function Header() {
                 </a>
               </div>
 
-              <div class="mac_three">
+              <div className="mac_three">
                 <p>More from Mac</p>
                 <a href="https://support.apple.com/mac?cid=gn-ols-mac-psp-prodfly">
                   Mac Support
@@ -125,8 +125,8 @@ export default function Header() {
 
           <li>
             <a href="#">ipad</a>
-            <div class="ipad_dropdown">
-              <div class="ipad_one">
+            <div className="ipad_dropdown">
+              <div className="ipad_one">
                 <p>Explore iPad</p>
                 <a href="https://www.apple.com/ipad/">Explore All iPad</a>
                 <a href="https://www.apple.com/ipad-pro/">iPad Pro</a>
@@ -138,7 +138,7 @@ export default function Header() {
                 <p>Compare iPaad</p>
               </div>
 
-              <div class="ipad_two">
+              <div className="ipad_two">
                 <p>Shop iPad</p>
                 <a href="https://www.apple.com/us-edu/shop/buy-mac">
                   Shop iPad
@@ -154,7 +154,7 @@ export default function Header() {
                 </a>
               </div>
 
-              <div class="ipad_three">
+              <div className="ipad_three">
                 <p>More from iPad</p>
                 <a href="https://support.apple.com/ipad?cid=gn-ols-ipad-psp-prodfly">
                   iPad Support
@@ -176,8 +176,8 @@ export default function Header() {
           <li>
             <a href="#">iphone</a>
 
-            <div class="iphone_dropdown">
-              <div class="iphone_one">
+            <div className="iphone_dropdown">
+              <div className="iphone_one">
                 <p>Explore iPhone</p>
                 <a href="https://www.apple.com/iphone/">Explore All iPhone</a>
                 <a href="https://www.apple.com/iphone-17-pro/">iPhone 17 Pro</a>
@@ -191,7 +191,7 @@ export default function Header() {
                 <p>Switch from Android</p>
               </div>
 
-              <div class="iphone_two">
+              <div className="iphone_two">
                 <p>Shop iPhone</p>
                 <a href="https://www.apple.com/us-edu/shop/buy-iphone">
                   Shop iPhone
@@ -210,7 +210,7 @@ export default function Header() {
                 </a>
               </div>
 
-              <div class="iphone_three">
+              <div className="iphone_three">
                 <p>More from iPhone</p>
                 <a href="https://support.apple.com/iphone?cid=gn-ols-iphone-psp-prodfly">
                   iPhone Support
@@ -236,8 +236,8 @@ export default function Header() {
 
           <li>
             <a href="#">Watch</a>
-            <div class="Watch_dropdown">
-              <div class="Watch_one">
+            <div className="Watch_dropdown">
+              <div className="Watch_one">
                 <p>Explore Watch</p>
                 <a href="https://www.apple.com/watch/">
                   Explore All Apple Watch
@@ -261,7 +261,7 @@ export default function Header() {
                 <p>Why AppleWatch</p>
               </div>
 
-              <div class="Watch_two">
+              <div className="Watch_two">
                 <p>Shop Watch</p>
                 <a href="https://www.apple.com/us-edu/shop/buy-watch">
                   Shop Apple Watch
@@ -280,7 +280,7 @@ export default function Header() {
                 </a>
               </div>
 
-              <div class="Watch_three">
+              <div className="Watch_three">
                 <p>More from Watch</p>
                 <a href="https://support.apple.com/watch?cid=gn-ols-watch-psp-prodfly">
                   Apple Watch Support
@@ -303,8 +303,8 @@ export default function Header() {
           <li>
             <a href="#">Vision</a>
 
-            <div class="Vision_dropdown">
-              <div class="Vision_one">
+            <div className="Vision_dropdown">
+              <div className="Vision_one">
                 <p>Explore Vision</p>
                 <a href="https://www.apple.com/apple-vision-pro/">
                   Explore Apple Vision
@@ -312,7 +312,7 @@ export default function Header() {
                 <p>Tech Specs</p>
               </div>
 
-              <div class="Vision_two">
+              <div className="Vision_two">
                 <p>Shop Vision</p>
                 <a href="https://www.apple.com/us-edu/store">
                   Shop Apple Vision Pro{" "}
@@ -328,7 +328,7 @@ export default function Header() {
                 </a>
               </div>
 
-              <div class="Vision_three">
+              <div className="Vision_three">
                 <p>More from Watch</p>
                 <a href="https://support.apple.com/apple-vision-pro?cid=gn-nav-vision-psp-prodfly">
                   Apple Vision pro Support
@@ -343,8 +343,8 @@ export default function Header() {
 
           <li>
             <a href="#">Airpods</a>
-            <div class="Airpods_dropdown">
-              <div class="Airpods_one">
+            <div className="Airpods_dropdown">
+              <div className="Airpods_one">
                 <p>Explore Airpods</p>
                 <a href="https://www.apple.com/airpods/">Explore All Airpods</a>
                 <a href="https://www.apple.com/airpods-4/">Airpods 4</a>
@@ -353,7 +353,7 @@ export default function Header() {
                 <p>Compare Airpods</p>
               </div>
 
-              <div class="Airpods_two">
+              <div className="Airpods_two">
                 <p>Shop Watch</p>
                 <a href="https://www.apple.com/us-edu/shop/accessories/all/headphones-speakers?f=apple-overear-sport&fh=47d1%2B3214%2B45aa%2B45ab&page=1">
                   Shop Airpods
@@ -363,7 +363,7 @@ export default function Header() {
                 </a>
               </div>
 
-              <div class="Airpods_three">
+              <div className="Airpods_three">
                 <p>More from Airpods</p>
                 <a href="https://www.apple.com/us-edu/shop/airpods/accessories">
                   Airpods Support
@@ -384,8 +384,8 @@ export default function Header() {
 
           <li>
             <a href="#">Tv&Home</a>
-            <div class="TvHome_dropdown">
-              <div class="TvHome_one">
+            <div className="TvHome_dropdown">
+              <div className="TvHome_one">
                 <p>Explore TV & Home</p>
                 <a href="https://www.apple.com/tv-home/">Explore TV & Home</a>
                 <a href="https://www.apple.com/apple-tv-4k/">Apple TV 4K</a>
@@ -395,7 +395,7 @@ export default function Header() {
                 <a href="https://www.apple.com/homepod-mini/">HomePod mini</a>
               </div>
 
-              <div class="TvHome_two">
+              <div className="TvHome_two">
                 <p>Shop TV & Home</p>
                 <a href="https://www.apple.com/shop/buy-tv/apple-tv-4k">
                   Shop Apple TV 4K
@@ -414,7 +414,7 @@ export default function Header() {
                 </a>
               </div>
 
-              <div class="TvHome_three">
+              <div className="TvHome_three">
                 <p>More from TV & Home</p>
                 <a href="https://support.apple.com/tv">Apple TV Support</a>
                 <a href="https://support.apple.com/homepod?cid=gn-ols-homepod-psp-prodfly">
@@ -438,8 +438,8 @@ export default function Header() {
 
           <li>
             <a href="#">Entertainment</a>
-            <div class="Entertainment_dropdown">
-              <div class="Entertainment_one">
+            <div className="Entertainment_dropdown">
+              <div className="Entertainment_one">
                 <p>Explore Entertainment</p>
                 <a href="https://www.apple.com/services/">
                   Explore Entertainment
@@ -459,7 +459,7 @@ export default function Header() {
                 <a href="https://www.apple.com/app-store/">App Store</a>
               </div>
 
-              <div class="Entertainment_two">
+              <div className="Entertainment_two">
                 <p>Support</p>
                 <a href="https://support.apple.com/tv?cid=gn-ols-tvplus-psp-prodfly">
                   Apple TV+ Support
@@ -473,8 +473,8 @@ export default function Header() {
 
           <li>
             <a href="#">Accessories</a>
-            <div class="Accessories_dropdown">
-              <div class="Accessories_one">
+            <div className="Accessories_dropdown">
+              <div className="Accessories_one">
                 <p>Shop Entertainment</p>
                 <a href="https://www.apple.com/shop/accessories/all">
                   Shop All Accessories
@@ -498,7 +498,7 @@ export default function Header() {
                 </a>
               </div>
 
-              <div class="Accessories_two">
+              <div className="Accessories_two">
                 <p>Explore Accessories</p>
                 <a href="https://www.apple.com/shop/accessories/all/made-by-apple">
                   Made by Apple
@@ -516,8 +516,8 @@ export default function Header() {
 
           <li>
             <a href="#">Support</a>
-            <div class="Support_dropdown">
-              <div class="Support_one">
+            <div className="Support_dropdown">
+              <div className="Support_one">
                 <p>Explore Support</p>
                 <a href="https://support.apple.com/iphone?cid=gn-ols-iphone-psp-explore">
                   iPhone
@@ -546,7 +546,7 @@ export default function Header() {
                 <p>Explore Support</p>
               </div>
 
-              <div class="Support_two">
+              <div className="Support_two">
                 <p>Get Help</p>
                 <a href="https://discussions.apple.com/welcome?cid=gn-com-community-lp-get_help">
                   Community
@@ -560,7 +560,7 @@ export default function Header() {
                 </a>
               </div>
 
-              <div class="Support_three">
+              <div className="Support_three">
                 <p>Helpful Topics</p>
                 <a href="https://www.apple.com/applecare/">Get AppleCare</a>
                 <a href="https://support.apple.com/apple-account?cid=gn-ols-appleaccount-psp-helpful_topics">
@@ -580,12 +580,12 @@ export default function Header() {
             <a href="#">
               <img src={search} />
             </a>
-            <div class="Search_dropdown">
-              <div class="sear_butt">
+            <div className="Search_dropdown">
+              <div className="sear_butt">
                 <input type="text" placeholder="Search Apple.com " />
               </div>
               <br />
-              <div class="Search_one">
+              <div className="Search_one">
                 <p>Quick Links</p>
                 <a href="https://www.apple.com/retail/">Find a Store</a>
                 <a href="https://www.apple.com/apple-vision-pro/">
@@ -605,12 +605,12 @@ export default function Header() {
             <a href="#">
               <img src={cart} />
             </a>
-            <div class="cart_dropdown">
-          <div class="cart_one">    
+            <div className="cart_dropdown">
+          <div className="cart_one">    
               <h1>Your Bag is empty</h1><br/>
               <p><a href = "#">sign in</a> to see if you have any saved items</p>
           </div><br/>
-       <div class="cart_two">
+       <div className="cart_two">
           <p>My Profile</p>
           <a href="#">Orders</a>
           <a href="#">Your Saves</a>
