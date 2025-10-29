@@ -343,7 +343,46 @@ export default function Header() {
 
           <li>
             <a href="#">Airpods</a>
+            <div class="Airpods_dropdown">
+              <div class="Airpods_one">
+                <p>Explore Airpods</p>
+                <a href="https://www.apple.com/airpods/">Explore All Airpods</a>
+                <a href="https://www.apple.com/airpods-4/">Airpods 4</a>
+                <a href="https://www.apple.com/airpods-pro/">Airpods Pro 3</a>
+                <a href="https://www.apple.com/airpods-max/">Airpods Max</a>
+                <p>Compare Airpods</p>
+              </div>
+
+              <div class="Airpods_two">
+                <p>Shop Watch</p>
+                <a href="https://www.apple.com/us-edu/shop/accessories/all/headphones-speakers?f=apple-overear-sport&fh=47d1%2B3214%2B45aa%2B45ab&page=1">
+                  Shop Airpods
+                </a>
+                <a href="https://www.apple.com/us-edu/shop/airpods/accessories">
+                  Airpods Accessories
+                </a>
+              </div>
+
+              <div class="Airpods_three">
+                <p>More from Airpods</p>
+                <a href="https://www.apple.com/us-edu/shop/airpods/accessories">
+                  Airpods Support
+                </a>
+                <a href="https://www.apple.com/applecare/?filter=headphones">
+                  AppleCare
+                </a>
+                <a href="https://www.apple.com/airpods-pro/hearing-health/">
+                  Hearing Health
+                </a>
+                <a href="https://www.apple.com/apple-music/">Apple Music</a>
+                <a href="https://www.apple.com/apple-fitness-plus/">
+                  Apple Fitness+
+                </a>
+              </div>
+            </div>
           </li>
+
+
           <li>
             <a href="#">Tv&Home</a>
           </li>
