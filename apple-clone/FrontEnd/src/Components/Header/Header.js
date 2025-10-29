@@ -438,7 +438,39 @@ export default function Header() {
 
           <li>
             <a href="#">Entertainment</a>
+            <div class="Entertainment_dropdown">
+              <div class="Entertainment_one">
+                <p>Explore Entertainment</p>
+                <a href="https://www.apple.com/services/">
+                  Explore Entertainment
+                </a>
+                <a href="https://www.apple.com/apple-one/">Apple One</a>
+                <a href="https://www.apple.com/apple-tv-plus/">Apple TV+</a>
+                <a href="https://www.apple.com/apple-music/">Apple Music</a>
+                <a href="https://www.apple.com/apple-arcade/">Apple Arcade</a>
+                <a href="https://www.apple.com/apple-fitness-plus/">
+                  Apple Fitness+
+                </a>
+                <a href="https://www.apple.com/apple-news/">Apple News+</a>
+                <a href="https://www.apple.com/apple-podcasts/">
+                  Apple Podcasts
+                </a>
+                <a href="https://www.apple.com/apple-books/">Apple Books</a>
+                <a href="https://www.apple.com/app-store/">App Store</a>
+              </div>
+
+              <div class="Entertainment_two">
+                <p>Support</p>
+                <a href="https://support.apple.com/tv?cid=gn-ols-tvplus-psp-prodfly">
+                  Apple TV+ Support
+                </a>
+                <a href="https://support.apple.com/music?cid=gn-ols-music-psp-prodfly">
+                  Apple Music Support
+                </a>
+              </div>
+            </div>
           </li>
+
           <li>
             <a href="#">Accessories</a>
           </li>
