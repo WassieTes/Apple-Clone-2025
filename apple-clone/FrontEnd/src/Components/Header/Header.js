@@ -175,7 +175,65 @@ export default function Header() {
 
           <li>
             <a href="#">iphone</a>
+
+            <div class="iphone_dropdown">
+              <div class="iphone_one">
+                <p>Explore iPhone</p>
+                <a href="https://www.apple.com/iphone/">Explore All iPhone</a>
+                <a href="https://www.apple.com/iphone-17-pro/">iPhone 17 Pro</a>
+                <a href="https://www.apple.com/iphone-air/">iPhone Air</a>
+                <a href="https://www.apple.com/iphone-17/">iPhone 17</a>
+                <a href="https://www.apple.com/us-edu/shop/buy-iphone/iphone-16">
+                  iPhone 16
+                </a>
+                <a href="https://www.apple.com/iphone-16e/">iPhone 16e</a>
+                <p>Compare iPhone</p>
+                <p>Switch from Android</p>
+              </div>
+
+              <div class="iphone_two">
+                <p>Shop iPhone</p>
+                <a href="https://www.apple.com/us-edu/shop/buy-iphone">
+                  Shop iPhone
+                </a>
+                <a href="https://www.apple.com/us-edu/shop/iphone/accessories">
+                  iPhone Accessories
+                </a>
+                <a href="https://www.apple.com/us-edu/shop/trade-in#iphone">
+                  Apple Trade In
+                </a>
+                <a href="https://www.apple.com/us-edu/shop/buy-iphone/carrier-offers">
+                  Carrier Deals at Apple
+                </a>
+                <a href="https://www.apple.com/us-edu/shop/browse/education_payment_plan">
+                  Financing
+                </a>
+              </div>
+
+              <div class="iphone_three">
+                <p>More from iPhone</p>
+                <a href="https://support.apple.com/iphone?cid=gn-ols-iphone-psp-prodfly">
+                  iPhone Support
+                </a>
+                <a href="https://www.apple.com/applecare/?filter=iphone">
+                  AppleCare
+                </a>
+                <a href="https://www.apple.com/os/ios/">iOS 26</a>
+                <a href="https://www.apple.com/apple-intelligence/">
+                  Apple Intelligence
+                </a>
+                <a href="https://www.apple.com/apps/">Apps by Apple</a>
+                <a href="https://www.apple.com/privacy/">iPhone Privacy</a>
+                <a href="https://www.apple.com/macos/continuity/">
+                  Better with Mac
+                </a>
+                <a href="https://www.apple.com/icloud/">iCloud+</a>
+                <a href="https://www.apple.com/wallet/">Wallet, Pay, Card</a>
+                <a href="https://www.apple.com/siri/">Siri</a>
+              </div>
+            </div>
           </li>
+
           <li>
             <a href="#">Watch</a>
           </li>
