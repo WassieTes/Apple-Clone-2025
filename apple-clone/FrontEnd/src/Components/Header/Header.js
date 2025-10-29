@@ -514,9 +514,69 @@ export default function Header() {
             </div>
           </li>
 
+
           <li>
             <a href="#">Support</a>
+            <div class="Support_dropdown">
+              <div class="Support_one">
+                <p>Explore Support</p>
+                <a href="https://support.apple.com/iphone?cid=gn-ols-iphone-psp-explore">
+                  iPhone
+                </a>
+                <a href="https://support.apple.com/mac?cid=gn-ols-mac-psp-explore">
+                  Mac
+                </a>
+                <a href="https://support.apple.com/ipad?cid=gn-ols-ipad-psp-explore">
+                  iPad
+                </a>
+                <a href="https://support.apple.com/watch?cid=gn-ols-watch-psp-explore">
+                  Watch
+                </a>
+                <a href="https://support.apple.com/apple-vision-pro?cid=gn-nav-vision-psp-explore">
+                  Apple Vision Pro
+                </a>
+                <a href="https://support.apple.com/airpods?cid=gn-ols-airpods-psp-explore">
+                  AirPods
+                </a>
+                <a href="https://support.apple.com/music?cid=gn-ols-music-psp-explore">
+                  Music
+                </a>
+                <a href="https://support.apple.com/tv?cid=gn-ols-tv-psp-explore">
+                  TV
+                </a>
+                <p>Explore Support</p>
+              </div>
+
+              <div class="Support_two">
+                <p>Get Help</p>
+                <a href="https://discussions.apple.com/welcome?cid=gn-com-community-lp-get_help">
+                  Community
+                </a>
+                <a href="https://checkcoverage.apple.com/?cid=gn-ols-checkcoverage-lp-get_help&locale=en_US">
+                  Check Coverage
+                </a>
+                <a href="https://www.apple.com/retail/geniusbar/">Genius Bar</a>
+                <a href="https://support.apple.com/repair?cid=gn-ols-repair-lp-get_help">
+                  Repair
+                </a>
+              </div>
+
+              <div class="Support_three">
+                <p>Helpful Topics</p>
+                <a href="https://www.apple.com/applecare/">Get AppleCare</a>
+                <a href="https://support.apple.com/apple-account?cid=gn-ols-appleaccount-psp-helpful_topics">
+                  Apple Account and password
+                </a>
+                <a href="https://support.apple.com/billing?cid=gn-ols-billing-collection-helpful_topics">
+                  Billing & Subscription
+                </a>
+                <a href="https://support.apple.com/accessibility?cid=gn-ols-accessibility-psp-helpful_topics">
+                  Accessibility
+                </a>
+              </div>
+            </div>
           </li>
+
           <li>
             <a href="#">
               <img src={search} />
