@@ -473,7 +473,47 @@ export default function Header() {
 
           <li>
             <a href="#">Accessories</a>
+            <div class="Accessories_dropdown">
+              <div class="Accessories_one">
+                <p>Shop Entertainment</p>
+                <a href="https://www.apple.com/shop/accessories/all">
+                  Shop All Accessories
+                </a>
+                <a href="https://www.apple.com/shop/mac/accessories">Mac</a>
+                <a href="https://www.apple.com/shop/ipad/accessories">iPod</a>
+                <a href="https://www.apple.com/shop/iphone/accessories">
+                  iPhone
+                </a>
+                <a href="https://www.apple.com/shop/watch/accessories">
+                  Apple Watch
+                </a>
+                <a href="https://www.apple.com/shop/vision/accessories">
+                  Apple Vision Pro
+                </a>
+                <a href="https://www.apple.com/shop/airpods/accessories">
+                  AirPods
+                </a>
+                <a href="https://www.apple.com/shop/smart-home/accessories">
+                  TV & Home
+                </a>
+              </div>
+
+              <div class="Accessories_two">
+                <p>Explore Accessories</p>
+                <a href="https://www.apple.com/shop/accessories/all/made-by-apple">
+                  Made by Apple
+                </a>
+                <a href="https://www.apple.com/shop/accessories/all/beats-featured">
+                  Beats
+                </a>
+                <a href="https://www.apple.com/airtag/">AirTag</a>
+                <a href="https://www.apple.com/accessibility/assistive-technologies/">
+                  Assistive Technologies
+                </a>
+              </div>
+            </div>
           </li>
+
           <li>
             <a href="#">Support</a>
           </li>
