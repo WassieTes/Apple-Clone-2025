@@ -36,6 +36,20 @@ img {
   color: inherit;
 }
 
+
+
+/* ✅ FIX: Keep dropdown open while hovering inside it */
+.list-wrapper li:hover > div,
+.list-wrapper li > div:hover {
+  opacity: 1 !important;
+  visibility: visible !important;
+  pointer-events: auto !important;
+  transform: translateX(-50%) translateY(0) !important;
+}
+
+
+
+
 /* store */
 
 /* 🔹 Dropdown container */

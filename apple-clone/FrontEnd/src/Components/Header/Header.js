@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from "react-router-dom"
 import "./Header.css";
 import apple from "./images/apple.svg"
 import search from "./images/search.svg"
@@ -608,7 +609,7 @@ export default function Header() {
             <div className="cart_dropdown">
           <div className="cart_one">    
               <h1>Your Bag is empty</h1><br/>
-              <p><a href = "#">sign in</a> to see if you have any saved items</p>
+              <p><Link to="/signin">Sign In</Link> to see if you have any saved items</p>
           </div><br/>
        <div className="cart_two">
           <p>My Profile</p>

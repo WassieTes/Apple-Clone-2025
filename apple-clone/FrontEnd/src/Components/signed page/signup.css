@@ -1,0 +1,27 @@
+.signup_wrapper {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+.name input {
+    width: 200px;
+    height: 30px;
+    border-radius: 12px;
+    padding-left: 10px;
+}
+.name1 {
+    margin-right: 10px;
+}
+
+.email {
+    width: 200px;
+    height: 30px;
+    border-radius: 12px;
+    padding-left: 10px;
+}
+.pass {
+    width: 200px;
+    height: 30px;
+    border-radius: 12px;
+    padding-left: 10px;
+}
