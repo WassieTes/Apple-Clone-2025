@@ -1,8 +1,13 @@
 const express = require("express")
 const mysql = require("mysql2")
+const cors = require("cors");
 
 
 var app = express();
+
+
+app.use(cors()); 
+app.use(express.json());  
 
 app.listen(3004, () => {
     console.log("Listening ......")
@@ -25,6 +30,7 @@ app.get ("/signup" , (req,res) => {
     let Signup1 = `CREATE TABLE IF NOT EXISTS signup(
          id INT AUTO_INCREMENT PRIMARY KEY,
          firstname VARCHAR(255) NOT NULL,
+         lasttname VARCHAR(255) NOT NULL,
          email VARCHAR(255) NOT NULL,
          password VARCHAR(255) NOT NULL
     )`;
@@ -33,4 +39,19 @@ app.get ("/signup" , (req,res) => {
   });
 
     res.end(massage);
+});
+
+app.post("/insert", (req, res) => {
+  console.log(req.body);
+
+  const { firstname, lastname, email, password } = req.body;
+
+  let add = `INSERT INTO signup(firstname, lastname, email, password)
+             VALUES (?, ?, ?, ?)`; // safer: prevents SQL injection
+
+  DB.query(add, [firstname, lastname, email, password], function (err, result) {
+    if (err) throw err;
+    console.log("1 record inserted");
+    res.json({ message: "Signup successful" });
+  });
 });
